@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -45,7 +44,6 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-shrink: 0;
-  align-content: stretch;
   padding: 16px;
 }
 
@@ -67,4 +65,8 @@ a {
   color: white;
   text-decoration: none;
   font-size: 24px;
+}
+
+li {
+  margin-bottom: 16px;
 }
